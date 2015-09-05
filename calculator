@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class calculator {
+	public static void main (String args[]) {
+		// This is a variable for Scanner
+		Scanner hunter = new Scanner (System.in);
+		// end variable for scanner
+		double fnum, snum, answer;
+		System.out.println("Enter first number: ");
+		//hunter.nextDouble();reads the number entered by user 
+		//and assigned it to fnum
+		
+		fnum = hunter.nextDouble();
+		
+		System.out.println("Enter second number: ");
+		snum = hunter.nextDouble();
+		
+		answer = fnum + snum;
+		System.out.println(answer);
+	}
+}
